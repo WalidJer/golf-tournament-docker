@@ -133,12 +133,12 @@ All API tests were executed both before and after containerizing the application
 ### POST /members
 URL: /members
 
-![POST Member](Screenshots/post-members.png)
+![POST Member](Screenshots/Post-members.png)
 
 ### POST /tournaments
 URL: /tournaments
 
-![POST Tournament](Screenshots/post-tournament.png)
+![POST Tournament](Screenshots/Post-tournament.png)
 
 ### Get all members
 Method: GET
