@@ -156,7 +156,7 @@ URL: /tournaments
 Method: GET
 URL: /members/search/name?name=Alice Johnson
 
-![GET Member](Screenshots/Get_Member_by_name.png)
+![GET Member](Screenshots/GET_Member_by_name.png)
 
 ### Search members by membership type
 Method: GET
@@ -167,9 +167,9 @@ URL: /members/search/membership-type?type=Gold
 ### Search member by phone number
 Method: GET
 
-URL: /members/search/phone?phone=7091110001
+URL: /members/search/phone?phone=7091110005
 
-![GET Member](Screenshots/Get_Member_by_phone.png)
+![GET Member](Screenshots/GET_Member_by_phone.png)
 
 ### Search members by tournament start date
 Method: GET
@@ -179,12 +179,12 @@ URL: /members/search/tournament-date?date=2024-08-01
 ### Search tournaments by start date
 Method: GET
 URL: /tournaments/search/start-date?date=2024-08-01
-![GET Tournament](Screenshots/Get-tournament_by-start_date.png)
+![GET Tournament](Screenshots/GET-tournament_by-start_date.png)
 
 ### Search tournaments by location
 Method: GET
 URL: /tournaments/search/location?location=Clovelly
-![POST Tournament](Screenshots/Get_Tournament_by_location.png)
+![POST Tournament](Screenshots/GET_Tournament_by_location.png)
 
 ### Get members in a tournament
 Method: GET
