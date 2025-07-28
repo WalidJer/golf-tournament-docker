@@ -129,13 +129,14 @@ image: walidjer/golf_tournament_api:latest
 ## Postman Testing Screenshots
 ### Note: 
 All API tests were executed both before and after containerizing the application with Docker. In both cases, the results were consistent and successful.
+- Base URL: http://localhost:8080
 ### POST /members
-URL: http://localhost:8080/members
+URL: /members
 
 ![POST Member](Screenshots/post-members.png)
 
 ### POST /tournaments
-URL: http://localhost:8080/tournaments
+URL: /tournaments
 
 ![POST Tournament](Screenshots/post-tournament.png)
 
@@ -209,8 +210,8 @@ URL: /tournaments/{id}/members
 1. **Log into the AWS Console** and navigate to the **RDS** service.
 2. Click **Create Database**.
 3. Choose:
-  - **Standard Create**
-  - **MySQL**
+  - Standard Create
+  - MySQL
  
 4. Fill in:
   - DB instance identifier: `golf-tournament-db`
