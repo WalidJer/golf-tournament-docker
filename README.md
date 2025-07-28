@@ -129,7 +129,7 @@ image: walidjer/golf_tournament_api:latest
 ## Postman Testing Screenshots
 ### Note: 
 All API tests were executed both before and after containerizing the application with Docker. In both cases, the results were consistent and successful.
-- Base URL: http://localhost:8080
+- Base URL : http://localhost:8080
 ### POST /members
 URL: /members
 
